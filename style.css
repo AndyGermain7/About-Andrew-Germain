@@ -1,9 +1,36 @@
-.center {
-    width: 100%;
-    length: 100%;
-    text-align: center;
-
+h1 {
+    color:green;
+    font-style: oblique;
 }
 
-img src="five-dollar-memorial.JPG"
-    alt="Andrew In Front of Lincoln Memorial"
+.center-list {
+    width: 20%;
+    list-style-position: inside;
+    text-align: left;
+    display: inline;
+}
+
+.center {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.center-image {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.image-caption {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
